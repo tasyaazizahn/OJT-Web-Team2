@@ -2,10 +2,11 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Routes, Route } from "react-router-dom"; 
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // Import Halaman Publik
 import Beranda from "./pages/Beranda";
-import Pelatihan from "./pages/PelatihanK3";
+import PelatihanK3 from "./pages/PelatihanK3";
 import JadwalTraining from "./pages/JadwalTraining";
 import Pendaftaran from "./pages/Pendaftaran";
 import PublicLayout from "./components/layouts/PublicLayout"; // <-- Layout baru untuk halaman publik
@@ -45,10 +46,10 @@ export default function App() {
       {/* =================================================== */}
       <Route path="/" element={<PublicLayout />}>
         {/* Konten publik akan dirender di dalam PublicLayout (Navbar, Footer) */}
-        <Route index element={<Beranda />} /> {/* Rute default: / */}
-        <Route path="pelatihan" element={<Pelatihan />} />
-        <Route path="jadwal-training" element={<JadwalTraining />} />
-        <Route path="pendaftaran" element={<Pendaftaran />} />
+        <Route path="/beranda" index element={<Beranda />} /> {/* Rute default: / */}
+        <Route path="/pelatihan-k3" element={<PelatihanK3 />} />
+        <Route path="/jadwal-training" element={<JadwalTraining />} />
+        <Route path="/pendaftaran" element={<Pendaftaran />} />
       </Route>
 
       {/* Halaman Login Admin - Tetap di luar layout Admin */}
