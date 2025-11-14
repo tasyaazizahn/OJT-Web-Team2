@@ -3,20 +3,23 @@ import React, { useEffect } from "react"; // ⬅️ Tambahkan ini
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next"; // 
+import { useTranslation } from "react-i18next"; //
 
 function Beranda() {
   useEffect(() => {
-    Aos.init({ duration: 1000, once: false,
-    easing: "ease-in-out", // transisi lebih smooth
-    offset: 100,});
+    Aos.init({
+      duration: 1000,
+      once: false,
+      easing: "ease-in-out", // transisi lebih smooth
+      offset: 100,
+    });
   }, []);
 
   const { t, i18n } = useTranslation(); // 🔹 Hook i18n
-  
-    const changeLanguage = (lang) => {
-      i18n.changeLanguage(lang);
-    };
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
 
   return (
     <div>
@@ -619,38 +622,27 @@ function Beranda() {
           </h2>
         </div>
 
-        {/* Wrapper animasi */}
-        <div className="logo-slider">
-          <div className="slide-track">
-            {/* Ulang logo 2x supaya looping-nya halus */}
-            {[...Array(2)].map((_, i) => (
-              <React.Fragment key={i}>
-                <div className="slide">
-                  <img src="/image/pt.png" alt="Logo 1" />
-                </div>
-                <div className="slide">
-                  <img src="/image/logo2.png" alt="Logo 2" />
-                </div>
-                <div className="slide">
-                  <img src="/image/logo3.png" alt="Logo 3" />
-                </div>
-                <div className="slide">
-                  <img src="/image/logo4.png" alt="Logo 4" />
-                </div>
-                <div className="slide">
-                  <img src="/image/logo5.png" alt="Logo 5" />
-                </div>
-                <div className="slide">
-                  <img src="/image/logo6.png" alt="Logo 6" />
-                </div>
-                <div className="slide">
-                  <img src="/image/logo7.png" alt="Logo 7" />
-                </div>
-                <div className="slide">
-                  <img src="/image/logo8.png" alt="Logo 8" />
-                </div>
-              </React.Fragment>
-            ))}
+        {/* Perusahaan yang bekerja sama  */}
+        <div class="container text-center" style={{backgroundColor: "#fcfcfc"}}>
+          <div class="row row-cols-3">
+            <div class="col">
+              <img src="/image/pt.png" alt="Logo 1" />
+            </div>
+            <div class="col">
+              <img src="/image/pt7.JPG" alt="Logo 7" />
+            </div>
+            <div class="col">
+              <img src="/image/pt3.JPG" alt="Logo 3" />
+            </div>
+            <div class="col">
+              <img src="/image/pt4.JPG" alt="Logo 4" />
+            </div>
+            <div class="col">
+              <img src="/image/pt5.JPG" alt="Logo 5" />
+            </div>
+            <div class="col">
+              <img src="/image/pt6.JPG" alt="Logo 6" />
+            </div>
           </div>
         </div>
       </div>
