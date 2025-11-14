@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e9fae9;
+  justify-content: center;
+  height: auto;
+}
+
+h1 {
+  color: rgb(54, 54, 54);
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+a.download-jadwal {
+  color: #5f635d;
+  text-decoration: none;
+}
+
+section {
+  margin: 100px;
+}

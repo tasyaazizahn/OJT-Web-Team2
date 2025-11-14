@@ -1,0 +1,28 @@
+
+
+body {
+  background-color: #e9fae9;
+  
+}
+
+h1 {
+  color: rgb(54, 54, 54);
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+a.download-jadwal {
+  color: #5f635d;
+  margin-left: 50px;
+  padding: 20px 20px;
+}
+
+h3 {
+  margin-top: 40px; /* jarak dari elemen atas */
+  margin-bottom: 20px; /* jarak ke tabel di bawah */
+}
+
+
+section {
+  margin: 100px;
+}

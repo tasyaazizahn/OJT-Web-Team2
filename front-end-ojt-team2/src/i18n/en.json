@@ -1,0 +1,137 @@
+{
+  "navbar": {
+    "home": "Home",
+    "training_schedule": "Training Schedule",
+    "training_k3": "K3 Training",
+    "registration": "Registration",
+    "phone": "phone: +62 21-11-2123-900"
+  },
+  "dropdown": {
+    "id": "ID",
+    "eng": "ENG"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Trusted Partner in Safety and Compliance",
+      "description": "PT Geo Mandiri Kreasi provides certified safety training and consulting services to ensure your workplace is safe and complies with Ministry of Manpower regulations."
+    },
+    "slide2": {
+      "title": "Officially Certified Safety Training by the Ministry of Manpower",
+      "description": "We offer various training programs such as General Safety Expert, Electrical Safety, Crane Operator, and more — led by experienced instructors with complete facilities."
+    },
+    "slide3": {
+      "title": "Inspection and Testing Services for Work Equipment",
+      "description": "Our experts conduct equipment and workplace inspections to ensure safety and compliance with national and international standards."
+    }
+  },
+  "features": {
+    "safety_training": "Safety Training",
+    "training_sdm": "HR Development Training",
+    "consultant": "Consulting Division",
+    "event": "Event Organizer",
+    "desc1": "Other K3 Training and Consultancy...",
+    "desc2": "Soft Skills, Leadership, Management, Team Building, ITC.",
+    "desc3": "Planning & Spatial Consulting, Survey & IT Technology.",
+    "desc4": "Corporate Events, Family Gatherings, Publications & Promotions."
+  },
+  "about": {
+    "title": "Welcome to Geo Mandiri Kreasi",
+    "desc": "PT Geo Mandiri Kreasi is a company engaged in consulting, training, and inspection services related to Occupational Safety and Health (K3) and construction. As a certified and official business entity, we are committed to supporting the creation of safe, efficient, and compliant work environments.",
+    "points": {
+      "1": "Registered as an <strong>official PJK3</strong> and member of INKINDO DKI Jakarta",
+      "2": "Provides <strong>certified K3 training by the Ministry of Manpower</strong>",
+      "3": "Trusted <strong>K3 consulting and inspection</strong> services",
+      "4": "Focused on <strong>safety, quality, and compliance</strong>"
+    }
+  },
+  "infoK3": {
+    "subtitle": "Training & Certification",
+    "title": "K3 TRAINING INFORMATION <br /> CERTIFIED BY KEMNAKER & BNSP",
+    "desc1": "Every company in Indonesia is required to implement occupational safety and health (K3) in the workplace. Now, K3 training and certification can also be conducted online, such as those organized by <span class='fw-semibold text-white'>PT GEO MANDIRI KREASI</span> in Jakarta.",
+    "desc2": "This training helps workers understand and apply safety and health principles in various industrial fields — from K3 experts and operators to technicians."
+  },
+  "testimoni": {
+    "subtitle": "Our Clients' Opinions",
+    "desc": "The combination of theory and practice made the training engaging and memorable, and the practice equipment was complete, so I could perform well during the exam.",
+    "desc2": "The instructor is very experienced in their field, making the first aid training I attended very enjoyable and extremely informative.",
+    "desc3": "The training rooms and venue are strategic, easily accessible by transportation.",
+    "desc4": "Trainings like this should be conducted more often to improve human resources quality.",
+    "orang": "Dita L. Fajarwati",
+    "orang2": "Lutfi Ulpah",
+    "orang3": "Sodikin",
+    "orang4": "Pujo Warsito",
+    "pt": "PT. Bintang Toedjoe",
+    "pt2": "PT. Happy Indonesia",
+    "pt3": "PT. Tetsu Sarana Persada",
+    "pt4": "PT. Triteguh Manunggal Sejati"
+  },
+  "training": {
+    "title": "Our Training Schedule",
+    "subtitle": "Choose the training field according to your needs",
+    "elevator": {
+      "title": "Elevator and Escalator Field",
+      "desc": "Technical training for installation, maintenance, and inspection of elevators and escalators."
+    },
+    "kebakaran": {
+      "title": "Fire Safety Field",
+      "desc": "Work safety training and industrial fire protection systems."
+    },
+    "konstruksi": {
+      "title": "Construction and Building Field",
+      "desc": "Improving the competencies of workers in construction and building supervision."
+    },
+    "tenaga": {
+      "title": "Power and Production Machinery Field",
+      "desc": "Training in the use and maintenance of production machinery and industrial power systems."
+    },
+    "angkut": {
+      "title": "Lifting and Transport Machinery Field",
+      "desc": "Training for operators and technicians of heavy equipment, cranes, and industrial transport systems."
+    }
+  },
+  "jadwal": {
+    "title": "PT. Geo Mandiri Kreasi Training Schedule",
+    "download": "Download Training Schedule 2025",
+    "add": "Add Training Schedule",
+    "fields": {
+      "elevator": "Elevator and Escalator Field",
+      "fire": "Firefighting Field",
+      "construction": "Construction and Building Field",
+      "angkat": "Lifting and Transport Equipment Field",
+      "tenaga": "Power and Production Equipment Field",
+      "uap": "Steam Boiler, Pressure Vessel & Storage Tank Field",
+      "welding": "Welding Field"
+    },
+    "modal": {
+      "addTitle": "Add Training Schedule",
+      "editTitle": "Edit Training Schedule",
+      "name": "Training Name",
+      "price": "Price",
+      "days": "Number of Days",
+      "field": "Field",
+      "month": "Month",
+      "date": "Date",
+      "cancel": "Cancel",
+      "save": "Save",
+      "saveChanges": "Save Changes"
+    },
+     "table": {
+    "no": "No",
+    "name": "Training Name",
+    "price": "Price",
+    "days": "Days",
+    "field": "Field",
+    "month": "Month",
+    "date": "Date",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noData": "No data available"
+  }
+  },
+  "button": {
+    "detail": "Details",
+    "register_now": "Register for Training Now",
+    "view_schedule": "View Full Schedule"
+  }
+}
