@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next"; //
+import { BubbleChat } from "flowise-embed-react";
 
 function Beranda() {
   useEffect(() => {
@@ -544,8 +545,10 @@ function Beranda() {
       {/* Bagian Jadwal Training */}
       <div className="container py-5" data-aos="fade-up">
         <div className="text-center mb-5">
-          <h2 className="fw-bold text-dark">{t("training.title")}</h2>
-          <p className="text-muted">{t("training.subtitle")}</p>
+          <h2 className="fw-bold text-dark">Jadwal Training Kami</h2>
+          <p className="text-muted">
+            Pilih bidang pelatihan sesuai kebutuhan Anda
+          </p>
         </div>
 
         <div className="row gy-4 justify-content-center">
@@ -553,24 +556,33 @@ function Beranda() {
           <div className="col-md-4">
             <div className="p-4 shadow-sm bg-white rounded-3 text-center h-100">
               <i className="bi bi-building-gear fs-1 text-primary mb-3"></i>
-              <h5 className="fw-bold">{t("training.elevator.title")}</h5>
-              <p className="text-muted">{t("training.elevator.desc")}.</p>
+              <h5 className="fw-bold">Bidang Elevator dan Eskalator</h5>
+              <p className="text-muted">
+                Pelatihan teknis untuk instalasi, perawatan, dan inspeksi
+                elevator serta eskalator.
+              </p>
             </div>
           </div>
 
           <div className="col-md-4">
             <div className="p-4 shadow-sm bg-white rounded-3 text-center h-100">
               <i className="bi bi-fire fs-1 text-danger mb-3"></i>
-              <h5 className="fw-bold">{t("training.kebakaran.title")}</h5>
-              <p className="text-muted">{t("training.kebakaran.desc")}</p>
+              <h5 className="fw-bold">Bidang Penanggulangan Kebakaran</h5>
+              <p className="text-muted">
+                Pelatihan keselamatan kerja dan sistem proteksi kebakaran
+                industri.
+              </p>
             </div>
           </div>
 
           <div className="col-md-4">
             <div className="p-4 shadow-sm bg-white rounded-3 text-center h-100">
               <i className="bi bi-hammer fs-1 text-warning mb-3"></i>
-              <h5 className="fw-bold">{t("training.konstruksi.title")}</h5>
-              <p className="text-muted">{t("training.konstruksi.desc")}</p>
+              <h5 className="fw-bold">Bidang Konstruksi dan Bangunan</h5>
+              <p className="text-muted">
+                Peningkatan kompetensi pekerja di bidang konstruksi dan
+                pengawasan bangunan.
+              </p>
             </div>
           </div>
 
@@ -578,16 +590,24 @@ function Beranda() {
           <div className="col-md-4">
             <div className="p-4 shadow-sm bg-white rounded-3 text-center h-100">
               <i className="bi bi-gear-wide-connected fs-1 text-success mb-3"></i>
-              <h5 className="fw-bold">{t("training.angkut.title")}</h5>
-              <p className="text-muted">{t("training.angkut.desc")}</p>
+              <h5 className="fw-bold">
+                Bidang Pesawat Angkat dan Pesawat Angkut
+              </h5>
+              <p className="text-muted">
+                Pelatihan operator dan teknisi alat berat, crane, serta sistem
+                angkut industri.
+              </p>
             </div>
           </div>
 
           <div className="col-md-4">
             <div className="p-4 shadow-sm bg-white rounded-3 text-center h-100">
               <i className="bi bi-lightning-charge fs-1 text-info mb-3"></i>
-              <h5 className="fw-bold">{t("training.tenaga.title")}</h5>
-              <p className="text-muted">{t("training.tenaga.desc")}</p>
+              <h5 className="fw-bold">Bidang Pesawat Tenaga dan Produksi</h5>
+              <p className="text-muted">
+                Pelatihan penggunaan dan perawatan mesin produksi serta sistem
+                tenaga industri.
+              </p>
             </div>
           </div>
         </div>
@@ -605,7 +625,7 @@ function Beranda() {
             onMouseEnter={(e) => (e.target.style.backgroundColor = "#004d2c")}
             onMouseLeave={(e) => (e.target.style.backgroundColor = "#006d3b")}
           >
-            {t("button.view_schedule")}
+            Lihat Jadwal Lengkap
           </Link>
         </div>
       </div>
@@ -623,7 +643,10 @@ function Beranda() {
         </div>
 
         {/* Perusahaan yang bekerja sama  */}
-        <div class="container text-center" style={{backgroundColor: "#fcfcfc"}}>
+        <div
+          class="container text-center"
+          style={{ backgroundColor: "#fcfcfc" }}
+        >
           <div class="row row-cols-3">
             <div class="col">
               <img src="/image/pt.png" alt="Logo 1" />
@@ -645,6 +668,16 @@ function Beranda() {
             </div>
           </div>
         </div>
+        <BubbleChat
+          chatflowid="15d4ddd1-7c84-4ab9-9900-47340558cf13"
+          apiHost="https://cloud.flowiseai.com"
+          theme={{
+            button: {
+              backgroundColor: "#006d3b",
+              iconColor: "#FFFFFF",
+            },
+          }}
+        />
       </div>
     </div>
   );
